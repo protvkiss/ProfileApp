@@ -8,7 +8,7 @@ const ProfileCard = ({ user, onEditPress }) => {
   return (
     <View style={[styles.card, { backgroundColor: colors.card, borderColor: colors.border }]}>
       <Image
-        source={{ uri: user.avatar || 'https://via.placeholder.com/150' }}
+        source={{ uri: user.avatar || 'https://i.pravatar.cc/150' }}
         style={styles.avatar}
       />
       <Text style={[styles.name, { color: colors.text }]}>{user.name}</Text>
